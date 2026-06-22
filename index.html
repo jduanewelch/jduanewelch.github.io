@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan | Software Developer</title>
+    <meta name="description" content="Personal portfolio of Jonathan, showcasing software development, AI integration, and digital experiences.">
+    
+    <!-- Google Fonts: Inter for clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animated Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">JONATHAN.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn-primary">Get in Touch</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in-up">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="name-title">Jonathan.</h1>
+                <h2 class="dynamic-subtitle">I build <span id="typewriter"></span><span class="cursor">|</span></h2>
+                <p class="hero-desc">
+                    I'm a software developer specializing in artificial intelligence integrations, automated workflows, and building exceptional digital experiences.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-outline">Check out my work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Skills Section -->
+        <section id="skills" class="skills-section">
+            <h3 class="section-heading">Technical Arsenal</h3>
+            <div class="skills-grid">
+                <div class="glass-card skill-card hover-glow">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Frontend Engineering</h4>
+                    <p>Building responsive, dynamic, and state-of-the-art web interfaces using modern HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="glass-card skill-card hover-glow">
+                    <i class="fa-solid fa-server"></i>
+                    <h4>Backend Architecture</h4>
+                    <p>Designing robust server infrastructures and APIs using Python, FastAPI, and robust database solutions.</p>
+                </div>
+                <div class="glass-card skill-card hover-glow">
+                    <i class="fa-solid fa-brain"></i>
+                    <h4>AI Integration</h4>
+                    <p>Leveraging Large Language Models, local inferencing (Ollama), and agentic systems to build intelligent tools.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h3 class="section-heading">Featured Projects</h3>
+            <div class="project-grid">
+                <div class="glass-card project-card">
+                    <div class="project-content">
+                        <span class="project-overline">Featured Initiative</span>
+                        <h4 class="project-title">J.A.R.V.I.S. Local AI</h4>
+                        <p class="project-desc">
+                            A completely offline, voice-activated artificial intelligence assistant running locally via Ollama. Features dynamic tool-calling, real-time system telemetry streaming, and a high-tech sci-fi visual interface.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>FastAPI</li>
+                            <li>Vanilla JS</li>
+                            <li>Web Speech API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built and designed by Jonathan.</p>
+        <div class="social-links">
+            <a href="https://github.com/jduanewelch" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
