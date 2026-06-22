@@ -1,8 +1,9 @@
 // Dynamic Typewriter Effect
 const phrases = [
     "AI assistants.",
-    "web experiences.",
+    "secure networks.",
     "automated workflows.",
+    "robotic automation.",
     "digital solutions."
 ];
 
