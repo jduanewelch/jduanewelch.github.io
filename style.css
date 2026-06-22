@@ -261,6 +261,73 @@ main {
     font-size: 0.95rem;
 }
 
+/* Experience Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background: var(--glass-border);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    padding: 30px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: -46px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bg-dark);
+    border: 2px solid var(--accent-purple);
+    box-shadow: 0 0 10px var(--accent-purple);
+    z-index: 1;
+}
+
+.timeline-date {
+    color: var(--accent-cyan);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.timeline-title {
+    color: #fff;
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.timeline-company {
+    color: var(--text-muted);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.timeline-item p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
 /* Projects */
 .project-card {
     display: flex;
