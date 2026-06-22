@@ -120,8 +120,25 @@
             <h3 class="section-heading justify-center">Get In Touch</h3>
             <div class="glass-card contact-card hover-glow text-center">
                 <h2 class="contact-title">Let's build something extraordinary.</h2>
-                <p class="contact-desc">Whether you have a question, a project idea, or just want to say hi, my inbox is always open.</p>
-                <a href="mailto:jduanewelch@gmail.com" class="btn-primary contact-btn">Say Hello <i class="fa-solid fa-paper-plane"></i></a>
+                <p class="contact-desc">Whether you have a question, a project idea, or just want to say hi, send me a message below!</p>
+                
+                <form action="https://formsubmit.co/jduanewelch@gmail.com" method="POST" class="contact-form">
+                    <!-- Disable Captcha (optional but cleaner) -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <!-- Redirect back to the website after sending -->
+                    <input type="hidden" name="_next" value="https://jduanewelch.github.io/">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required class="form-input" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary contact-btn w-100">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
                 
                 <div class="contact-socials">
                     <a href="mailto:jduanewelch@gmail.com" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
